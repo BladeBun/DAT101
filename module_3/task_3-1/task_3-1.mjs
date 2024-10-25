@@ -78,9 +78,11 @@ printOut(newLine);
 printOut("--- Part 10 ---------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
 if (monthName === "Mars" || monthName === "April" || monthName === "Mai") {
-  printOut("The gallery is closed");
+  printOut("The gallery is closed in " + monthName);
+} else {
+  printOut("The gallery is open in " + monthName);
 }
 if (monthName === "April") {
-  printOut("Temporary access In the building next door");
+  printOut("Temporary access to the building next door in " + monthName);
 }
 printOut(newLine);
